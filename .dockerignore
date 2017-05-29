@@ -1,0 +1,9 @@
+.gitignore
+.dockerignore
+.ruby-gemset
+.ruby-version
+Makefile
+secrets.yml
+secrets.yml.sample
+docker-compose.yml
+Dockerfile
