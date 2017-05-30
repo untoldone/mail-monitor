@@ -2,6 +2,8 @@ version: "3"
 services:
   mail-monitor:
     image: gcr.io/mwasser-personal/mail-monitor:latest
+    tty: true
+    stdin_open: true
     env_file:
       - secrets.yml
     environment:
